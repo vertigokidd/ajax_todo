@@ -1,0 +1,36 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  background-color: #DADADA;
+}
+th {
+  text-align: left;
+}
+
+ul {
+  margin:20px;
+  padding:0;
+}
+
+h1 {
+  font-family: Unkempt;
+}
+li {
+  list-style:none;
+  font-family: Unkempt;
+  border:solid black 3px;
+  border-radius:5px;
+  margin:20px;
+  padding:10px 10px 10px 30px;
+  font-size:2em;
+  background-color:#F1F0F0;
+}
+
+
+.checkbox {
+  margin-right:20px;
+  width:30px;
+  height:30px;
+}

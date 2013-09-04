@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Todo List</h1>
+  
+<ul class="todo_list" id="sortable">
+  <% Item.order("position").each do |item| %>
+  <li data-id=<%=item.id%>><input class="checkbox" type="checkbox"></input><%= item.description%></li>
+  <%end%>
+
+
+<!--   <li><input class="checkbox" type="checkbox"></input>aaa</li>
+  <li><input class="checkbox" type="checkbox"></input>aaa</li>
+  <li><input class="checkbox" type="checkbox"></input>aaa</li>
+  <li><input class="checkbox" type="checkbox"></input>aaa</li>
+ -->
+</ul>
+
+
+</div>
